@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "803347535036",
+    "firebase_url": "https://exlibros-b3cd5.firebaseio.com",
+    "project_id": "exlibros-b3cd5",
+    "storage_bucket": "exlibros-b3cd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803347535036:android:bc17ba990d280600",
+        "android_client_info": {
+          "package_name": "app.exlibros.com.exlibros"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803347535036-9ecg0672m5c5nihcvslpmuuph13qfu0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTUbNbqApEqzHCaLn8nyeNZY98zq-z3tA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:803347535036:android:e748a1821bd9f08e",
+        "android_client_info": {
+          "package_name": "com.historic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "803347535036-9ecg0672m5c5nihcvslpmuuph13qfu0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTUbNbqApEqzHCaLn8nyeNZY98zq-z3tA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

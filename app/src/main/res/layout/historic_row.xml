@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="#ffffff"
+    android:layout_marginBottom="2dp">
+
+    <ImageView
+        android:id="@+id/person_images"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:scaleType="fitStart"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:text="Hello"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/text_black"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_toRightOf="@+id/person_images"/>
+    <TextView
+        android:id="@+id/period"
+        android:text="(353-326 BC)"
+        android:textSize="12dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/text_black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"/>
+    <TextView
+        android:id="@+id/excerpt"
+        android:text="Alexander III of Macedon (20/21 July 356 BC – 10/11 June 323 BC), commonly known as Alexander the Great (Greek: Ἀλέξανδρος ὁ Μέγας, Aléxandros ho Mégas Koine Greek: [a.lék.san.dros ho mé.gas] ), was a king (basileus) of the Ancient Greek kingdom of Macedon[a] and a member of the Argead dynasty. Born in Pella in 356 BC, Alexander succeeded his father, Philip II, to the throne at the age of twenty. He spent most of his ruling years on an unprecedented military campaign through Asia and northeast Africa, and by the age of thirty he had created one of the largest empires of the ancient world, stretching from Greece to northwestern India.[1][2] He was undefeated in battle and is widely considered one of history's most successful military commanders."
+        android:textSize="12dp"
+        android:textColor="@color/text_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:layout_below="@+id/name"
+        android:layout_toRightOf="@+id/person_images"
+        android:layout_toEndOf="@+id/person_images"/>
+
+</RelativeLayout>
